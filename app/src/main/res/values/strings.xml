@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Books 1$</string>
+    <string name="nav_drawer_open">Open Drawer</string>
+    <string name="nav_drawer_close">Close Drawer</string>
+
+
+    <string-array name="books_name">
+        <item>God Created the Integers</item>
+        <item>The Grand Design</item>
+        <item>Black Holes</item>
+        <item>Winters Tale</item>
+        <item>God Created the Integers</item>
+        <item>The Grand Design</item>
+        <item>Black Holes</item>
+        <item>Winters Tale</item>
+        <item>God Created the Integers</item>
+        <item>The Grand Design</item>
+    </string-array>
+<!--
+    <int-array name="books_cover">
+        <item>R.drawable.four</item>
+        <item> R.drawable.five</item>
+        <item>R.drawable.two</item>
+        <item>R.drawable.ten</item>
+        <item>R.drawable.four</item>
+        <item> R.drawable.five</item>
+        <item>R.drawable.two</item>
+        <item>R.drawable.ten</item>
+        <item>R.drawable.four</item>
+        <item> R.drawable.five</item>
+    </int-array>-->
+    <integer-array name="books_image">
+        <item>@drawable/four</item>
+        <item>@drawable/five</item>
+        <item>@drawable/two</item>
+        <item>@drawable/ten</item>
+        <item>@drawable/four</item>
+        <item>@drawable/five</item>
+        <item>@drawable/two</item>
+        <item>@drawable/ten</item>
+        <item>@drawable/four</item>
+        <item>@drawable/five</item>
+    </integer-array>
+
+</resources>
