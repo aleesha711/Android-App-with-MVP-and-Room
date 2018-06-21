@@ -6,7 +6,7 @@ MVP stands for Model-View-Presenter which is a UI design pattern. MVP pattern pr
 * **Presenter:** the presenter is the middle-man between model and view. All your presentation logic belongs to it. The presenter is responsible for querying the model and updating the view, reacting to user interactions updating the model.
 * **View:** it is only responsible for presenting data in a way decided by the presenter. The view can be implemented by Activities, Fragments, any Android widget or anything that can do operations like showing a ProgressBar, updating a TextView, populating a RecyclerView and so on.
 
-![ScreenShot](http://sofllc.com/github/books1$.png)
+![alt text](http://sofllc.com/github/books1$.png)
 
 # Room Persistence Library
 
