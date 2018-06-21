@@ -9,8 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Have Free Home Delivery"
-        android:textSize="18sp" />
+        android:text="Free Home Delivery"
+        android:textStyle="bold"
+        android:textSize="20sp" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"

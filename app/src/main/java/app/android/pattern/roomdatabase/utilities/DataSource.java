@@ -37,7 +37,7 @@ public class DataSource {
         dataBase.catDao().insert(cart);
     }
 
-    private BookEntity catInstance(String name, int imageId, int posId) {
+    private BookEntity bookInstance(String name, int imageId, int posId) {
         BookEntity bookEntity = new BookEntity();
         bookEntity.name = name;
         bookEntity.imageId = imageId;
@@ -73,7 +73,7 @@ public class DataSource {
         tArray.recycle();
 
         for (int i = 0; i < books_name_array.length; i++) {
-            BookEntity bookEntity = catInstance(books_name_array[i],ids[i], i);
+            BookEntity bookEntity = bookInstance(books_name_array[i],ids[i], i);
             bookEntities.add(bookEntity);
             dataBase.catDao().insert(bookEntities);
         }

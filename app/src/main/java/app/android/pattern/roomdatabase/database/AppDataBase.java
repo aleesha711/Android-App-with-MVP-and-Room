@@ -19,10 +19,7 @@ public abstract class AppDataBase extends RoomDatabase {
 
     private static AppDataBase instance;
 
-
     public abstract BooksDao catDao();
-
-
 
     public static AppDataBase getAppDatabase(Context context) {
         if (instance == null) {
